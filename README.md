@@ -1,2 +1,3 @@
-# docker-ansible
-Ansible on Docker 
+# A Docker Ansible image.
+
+Running

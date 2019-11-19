@@ -9,7 +9,7 @@ A customized Docker Ansible image.
 Run Ansible with a local playbook:
 
 ```shell
-docker run -it --rm --name ansibleplay -v "$HOME/source":/source -w /source ansible ansible-playbook /source/myplaybook.yml 
+docker run -it --rm --name ansibleplay -v "$HOME/source":/source -w /source imjoseangel/ansible ansible-playbook /source/myplaybook.yml 
 ```
 
 or create a function:
